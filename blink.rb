@@ -1,11 +1,11 @@
 require 'pi_piper'
 
-pin = PiPiper::Pin.new(:pin => 18, :direction => :out)
+ledPin = PiPiper::Pin.new(:pin => 18, :direction => :out)
 
 10.times { 
-  pin.on
+  ledPin.on
   sleep 1
-  pin.off
+  ledPin.off
   sleep 1
 }
   
