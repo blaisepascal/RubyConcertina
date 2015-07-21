@@ -4,7 +4,7 @@ require "midi"
 
 @output = UniMIDI::Output.use(:first)
 
-tempo = 150
+tempo = 180
 q = 60.0/tempo
 e = q/2
 
